@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tres.css">
+    <script src="tres.js"></script>
+    <link rel="shortcut icon" href="../img/js.png" type="image/x-icon">
+    <title> Ejercicio 3: Calificación</title>
+</head>
+<body>
+    <h1> Ejercicio 3: Calificación</h1>
+    <button class="boton-regresar" onclick="history.back()">
+        <img src="../img/home.png" alt="Regresar">
+    </button>    
+    <div class="container">
+        <h3>¿Cúal es tu Calificación?</h3>
+        <p>Escribe una función que reciba una calificación (0 a 100) y devuelva:
+        'A' para 90-100, 'B' para 80-89, 'C' para 70-79, 'D' para 60-69 y 'F' para menos de 60</p>
+        <p>Ingresa tu calificación:</p>
+        <input type="number" id="calificacion" min="0" placeholder="Ingrese su calificación">
+        <button onclick="mostrarLetra()">Obtener Letra</button>
+    <p id="resultado"></p>
+    </div>
+</body>
+</html>

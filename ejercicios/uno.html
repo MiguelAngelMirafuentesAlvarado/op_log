@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="uno.css">
+    <script src="uno.js"></script>
+    <link rel="shortcut icon" href="../img/js.png" type="image/x-icon">
+    <title>Ejercicio 1: Par o Impar</title>
+</head>
+<body>
+    <h1>Ejercicio 1: Par o Impar</h1>
+    <button class="boton-regresar" onclick="history.back()">
+        <img src="../img/home.png" alt="Regresar">
+    </button>    
+    <div class="container">
+        <h3>¿El número es par o inpar?</h3>
+        <p>Escribe una función que reciba un número y devuelva 'Par' si es par y 'Impar' si es impar.</p>
+        <p>Ingrese un número entero:</p>
+        <input type="number" id="numero" min="0" max="100" placeholder="Ingrese un número">
+        <button onclick="verificarParImpar()">Verificar</button>
+        <p id="resultado"></p>
+    </div>
+</body>
+</html>
